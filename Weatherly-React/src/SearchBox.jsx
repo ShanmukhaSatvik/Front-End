@@ -49,7 +49,7 @@ function SearchBox({updateInfo}) {
     }
     return(
         <div className='SearchBox'>
-            <form action="" onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit}>
                 <TextField id="city" label="City Name" variant="outlined" required onChange={handleChange} value={city}/>
                 <br /><br />
                 <Button variant="contained" type='Submit'>Search</Button>
