@@ -1,4 +1,4 @@
-import Todo from "./components/todo";
+import Todo from "./components/Todo";
 import {Provider} from "react-redux";
 import {store} from "./app/store.js";
 function App() {
